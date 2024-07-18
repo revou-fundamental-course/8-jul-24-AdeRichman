@@ -1,0 +1,242 @@
+.container {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.page-left {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.jenis-kelamin {
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 28px;
+}
+article {
+  text-align: justify;
+}
+.page-left main {
+  background-color: rgb(233, 237, 245);
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+main h3 {
+  margin: 10px 0 10px 0;
+}
+.jenis-kelamin label,
+input {
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+main .berat-badan input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+main .usia input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+main .tinggi-badan input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.sub-res button {
+  margin-top: 40px;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.sub-res button:nth-child(1) {
+  background-color: rgb(92, 189, 228);
+  color: white;
+}
+.sub-res button:nth-child(2) {
+  background-color: rgb(228, 228, 228);
+}
+/* Resp Item */
+.bottom-resp .fitur-resp,
+.deskripsi-resp,
+.deskripsi-resp p {
+  display: none;
+}
+/* Resp Item */
+
+/* Halaman Result */
+.page-right {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.hidden {
+  display: none;
+}
+.page-right main {
+  background-color: rgb(233, 237, 245);
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 5px;
+}
+main .displayresult p {
+  margin: 20px;
+}
+main .displayresult p:nth-child(1) {
+  font-size: 20px;
+}
+main .displayresult p:nth-child(2) {
+  font-size: 40px;
+}
+main .displayresult p:nth-child(3) {
+  font-size: 18px;
+}
+.downloadresult button {
+  width: fit-content;
+  border: none;
+  background-color: rgb(92, 189, 228);
+  color: white;
+  padding: 8px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 7px 0 5px 0;
+}
+.explanation-result p:nth-child(2) {
+  margin-bottom: 10px;
+}
+.button-ahli-gizi button:nth-child(1) {
+  width: fit-content;
+  border: none;
+  background-color: rgb(92, 189, 228);
+  color: white;
+  padding: 8px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: 7px 0 5px 0;
+}
+.button-ahli-gizi button:nth-child(2) {
+  width: fit-content;
+  border: none;
+  background-color: rgb(92, 189, 228);
+  color: white;
+  padding: 8px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: 7px 0 5px 0;
+}
+.article-bottom-right {
+  text-align: center;
+  background-color: rgb(233, 237, 245);
+  padding: 10px;
+  border-radius: 5px;
+}
+.article-bottom-right .disease-obesity {
+  text-align: center;
+}
+.article-bottom-right .disease-obesity p:nth-child(1) {
+  margin-bottom: 15px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.article-bottom-right .disease-obesity p:nth-child(2) {
+  font-size: 16px;
+  margin-top: 0;
+}
+.consul-regist {
+  margin-bottom: 10px;
+}
+.consul-regist button:nth-child(1) {
+  width: fit-content;
+  border: none;
+  background-color: rgb(92, 189, 228);
+  color: white;
+  padding: 8px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: 7px 0 5px 0;
+}
+.consul-regist button:nth-child(2) {
+  width: fit-content;
+  border: none;
+  background-color: rgb(92, 189, 228);
+  color: white;
+  padding: 8px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: 7px 0 5px 0;
+}
+.download-btn {
+  text-align: center;
+}
+.download-apps p {
+  font-size: 20px;
+  margin: 20px 0px 5px 0px;
+}
+.download-apps button {
+  margin-top: 0px;
+}
+.download-apps img:nth-child(1) {
+  width: 150px;
+  height: 50px;
+}
+
+/* Responsive */
+@media (max-width: 1125px) {
+  .button-ahli-gizi button:nth-child(1) {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .button-ahli-gizi button:nth-child(2) {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .consul-regist button:nth-child(1) {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .consul-regist button:nth-child(2) {
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 820px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .page-left {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .page-right {
+    padding: 10px;
+    margin-top: -30px;
+  }
+  .fitur,
+  .deskripsi,
+  .deskripsi p {
+    display: none;
+  }
+  .bottom-resp .fitur-resp,
+  .deskripsi-resp,
+  .deskripsi-resp p {
+    display: block;
+  }
+}
